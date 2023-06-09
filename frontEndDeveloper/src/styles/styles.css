@@ -1,0 +1,38 @@
+* {
+    font-family: "Karla", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Markazi Text", serif;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+body {
+    max-height: 100dvh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+body::-webkit-scrollbar-track {
+    background: #EDEFEE;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #495E57;
+    border-radius: 10px;
+}
